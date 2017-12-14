@@ -1,0 +1,11 @@
+{
+  "full_name": "Matthias Ossadnik",
+  "email": "ossadnik.matthias@gmail.com",
+  "github_username": "mossadnik",
+  "project_name": "new project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "github_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.git",
+  "has_remote": "y",
+  "short_description": "short description",
+  "version": "0.0.1"
+}
