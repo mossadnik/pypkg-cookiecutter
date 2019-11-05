@@ -25,7 +25,7 @@ setup(
     license='MIT',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    url="{{ cookiecutter.github_url }}",
+    url="{{cookiecutter.github_url}}",
     setup_requires=['pytest-runner'],
     install_requires=requirements,
     tests_require=['pytest'],
