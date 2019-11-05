@@ -2,6 +2,7 @@
 
 from setuptools import setup, find_packages
 
+
 def _read(fname):
     try:
         with open(fname) as fobj:
@@ -9,6 +10,9 @@ def _read(fname):
 
     except IOError:
         return ''
+
+
+requirements = []
 
 
 setup(
@@ -23,7 +27,7 @@ setup(
     package_dir={'': 'src'},
     url="{{ cookiecutter.github_url }}",
     setup_requires=['pytest-runner'],
-    install_requires=[],
+    install_requires=requirements,
     tests_require=['pytest'],
     classifiers=[
         'Development Status :: 1 - Planning',

@@ -1,0 +1,7 @@
+-e .
+# dev
+pylint
+bump2version
+# notebooks / examples
+jupyter
+matplotlib
